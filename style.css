@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3vw;
+    padding: 0 5vw;
 }
 
 .nav-part2{
@@ -48,20 +48,56 @@
 .content{
     height: calc(100% - 100px);
     width: 100%;
-    color: burlywood;
+    
+    display: flex;
+    position: relative;
 }
 
 
 .left{
     height: 100%;
-    width: 50%;
-    background-color: crimson;
+    width: 55%;
+    
+    padding: 5vw 4vw;
+}
+
+.left h2{
+    font-size: 4vw;
+    line-height: 4.4vw;
+}
+
+.left h2 span{
+    color: lightseagreen;
+}
+
+.left p{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+button{
+    font-size: 1.5vw;
+    padding: 1.1vw 2.1vw;
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 700;
 }
 
 .right{
     height: 100%;
-    width: 50%;
-    background-color: royalblue;
+    width: 45%;
+    
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -76,7 +112,7 @@
     }
 
     .nav h2{
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     .nav h4{
@@ -87,6 +123,10 @@
 .nav i{
     display: block;
     font-size: 6vw;
+}
+
+.content{
+    height: calc(100% - 60px);
 }
 }
 
